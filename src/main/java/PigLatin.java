@@ -28,9 +28,9 @@ public class PigLatin {
 	    }
     }
 
-   public int findFirstVowel(String Sword) {
+   public int findFirstVowel(String sWord) {
   for (int i = 0; i< Sword.length(); i++)
-    if (Sword.substring(i, i+1).equals("a") || Sword.substring(i, i+1).equals("e") || Sword.substring(i, i+1).equals("i") || Sword.substring(i, i+1).equals("o") || Sword.substring(i, i+1).equals("u")) {
+    if (sWord.substring(i, i+1).equals("a") || sWord.substring(i, i+1).equals("e") || sWord.substring(i, i+1).equals("i") || sWord.substring(i, i+1).equals("o") || sWord.substring(i, i+1).equals("u")) {
 
       return i;
     }
