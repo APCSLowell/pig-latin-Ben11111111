@@ -27,7 +27,7 @@ public class PigLatin {
 	        System.out.println(pigLatin(lines[i]));
 	    }
     }
-}
+
    public int findFirstVowel(String Sword) {
   for (int i = 0; i< Sword.length(); i++)
     if (Sword.substring(i, i+1).equals("a") || Sword.substring(i, i+1).equals("e") || Sword.substring(i, i+1).equals("i") || Sword.substring(i, i+1).equals("o") || Sword.substring(i, i+1).equals("u")) {
@@ -54,3 +54,4 @@ public class PigLatin {
   } 
 }
 //end PigLatin class
+}
